@@ -2,7 +2,7 @@
 <html>
 <head>
     <script>
-     var n=prompt("enter the number whose factor to be find:", 1);//, will come so that it could be recognised properly
+     var n=prompt("enter the number whose factor to be find:", 1);
     function factor(n)
     {
         for(i=n;i>0;i--)
