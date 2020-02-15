@@ -1,0 +1,20 @@
+<!doctype>
+<html>
+<head>
+    <script>
+     var n=prompt("enter the number whose factor to be find:", 1);//, will come so that it could be recognised properly
+    function factor(n)
+    {
+        for(i=n;i>0;i--)
+        {
+        if(n%i==0)
+        document.write(+i +"<br/>");
+        }
+    }
+   
+    factor(n);
+    
+    
+    </script>
+    </head>
+    </html>
